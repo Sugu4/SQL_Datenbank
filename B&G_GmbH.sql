@@ -44,3 +44,28 @@ INSERT INTO makler(name, telefon)
     -> VALUES("Hans Müller", "089-1234-43");
 SELECT warnings;
 show warnings;
+SELECT * from makler;
+CREATE TABLE eigentuemer(
+    -> eigentuemer_ID INT PRIMARY KEY,
+    -> name VARCHAR(255),
+    -> strasse VARCHAR(255),
+    -> hausnr VARCHAR(100),
+    -> klaus_peter INT,
+    -> FOREIGN KEY (klaus_peter) REFERENCES plz(plzID));
+DESCRIBE eigentuemer;
+ALTER TABLE eigentuemer
+    -> CHANGE klaus_peter plz INT;
+ALTER TABLE eigentuemer
+ALTER TABLE immobilie
+    -> ADD FOREIGN KEY(eigentuemer_ID) REFERENCES eigentuemer(eigentuemer_ID);
+DESCRIBE immobilie;
+CREATE TABLE kunde(
+    -> kunde_ID INT AUTO_INCREMENT PRIMARY KEY,
+    -> name VARCHAR(255),
+    -> strasse VARCHAR(255),
+    -> hausnr VARCHAR(50),
+    -> plz INT,
+    -> FOREIGN KEY(PLZ) REFERENCES plz(plzID));
+DESCRIBE kunde;
+
+

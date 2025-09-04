@@ -1,7 +1,8 @@
 # SQL-Lernprojekt – Immobilien-Datenbank
 
 Dieses Repository dokumentiert meine Arbeit mit **SQL** im Rahmen meiner Weiterbildung und Lernprojekte.  
-Ziel ist es, die Grundlagen von relationalen Datenbanken zu erlernen und eine kleine **Immobilien-Datenbank** zu entwickeln, die realistische Anwendungsfälle abbildet.
+Ziel ist es, die Grundlagen von relationalen Datenbanken zu erlernen und eine kleine **Immobilien-Datenbank** zu entwickeln, die realistische Anwendungsfälle abbildet.  
+Viel Spaß beim Lernen! (❁´◡`❁)
 
 ---
 

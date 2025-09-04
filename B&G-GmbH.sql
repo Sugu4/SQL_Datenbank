@@ -44,4 +44,3 @@ INSERT INTO makler(name, telefon)
     -> VALUES("Hans Müller", "089-1234-43");
 SELECT warnings;
 show warnings;
-

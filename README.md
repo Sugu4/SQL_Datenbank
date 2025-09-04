@@ -39,6 +39,7 @@ VALUES("München", "80333");
 
 -- Abfrage
 SELECT * FROM plz;
+```
 
 ---
 

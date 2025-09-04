@@ -48,6 +48,7 @@ SELECT * FROM plz;
 Beispielausgabe nach den ersten Inserts in die Tabelle plz:
 
 | plzID	| plz |	ort |
+|---|-------|---------|
 | 1 | 80333 | München |
 | 2 | 45130 | Essen |
 | 3 | 20144 | Hamburg |

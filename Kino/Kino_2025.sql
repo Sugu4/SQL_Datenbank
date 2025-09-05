@@ -99,3 +99,42 @@ ALTER TABLE sitzplatz
 ALTER TABLE werbung
     ADD FOREIGN KEY (film_id) REFERENCES film(film_id),
     ADD FOREIGN KEY (menu_id) REFERENCES menu(menu_id);
+
+INSERT INTO film (title, dauer, fsk_freigabe, erscheinungsdatum, inhalt)
+VALUES
+("Disney's Hercules", 93, 0, "1997-11-20", "Er ist das Kind von Zeus und der menschlichen Hera,
+wodurch er die Kraft eines Gottes und die Schwächen eines Menschen besitzt."),
+("Black Swan", 108, 16, "2011-01-20", "Black Swan ist ein Psychothriller des Regisseurs Darren Aronofsky
+über die Ballerina Nina (Natalie Portman), die in Tschaikowskis"),
+("Bang Boom Bang", 110, 12, "1999-08-26", "Bang Boom Bang Ein todsicheres Ding ist eine deutsche Gaunerkomödie
+von Regisseur Peter Thorwarth aus dem Jahr 1999 über den Kleinkriminellen Keek, der nach einem Bankraub
+die Beute seines Komplizen Kalle verspielt."),
+("Revolver", 111, 16, "2005-09-22", "Revolver ist ein britisch-französischer Thriller von Guy Ritchie aus dem Jahr 2005."),
+("Zurueck in die Zukunft", 116, 12, "1985-07-03", "Zurück in die Zukunft (Originaltitel: Back to the Future) ist ein US-amerikanischer Science-Fiction-Film
+aus dem Jahr 1985 von Robert Zemeckis mit Michael J. Fox und Christopher Lloyd in den Hauptrollen."),
+("Angst und Schreken in Las Vegas", 118, 16, "1998-09-24", "Fear and Loathing in Las Vegas (deutscher Titel: Angst und Schrecken in Las Vegas) ist ein
+US-amerikanischer Spielfilm von Terry Gilliam aus dem Jahr 1998 nach dem gleichnamigen Roman von Hunter S. Thompson.")
+;
+
+
+INSERT INTO genre (genre)
+VALUES
+("Drama"),
+("Fantasy"),
+("Thriller"),
+("Horror"),
+("Komödie"),
+("Action"),
+("Science-Fiction"),
+("Abenteuer"),
+("Animation"),
+("Familie"),
+("Musical"),
+("Romantik"),
+("Krimi"),
+("Mystery"),
+("Dokumentation"),
+("Biografie"),
+("Historie"),
+("Sport"),
+("Western");

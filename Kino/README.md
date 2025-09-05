@@ -153,6 +153,3 @@ WHERE start_zeitpunkt <= NOW()
 - Optional: ER-Diagramm zeichnen und ins Repo aufnehmen
 
 ---
-
-## Autor
-Projekt von **Süleyman Gümüs** im Rahmen von Übungsprojekten zu Datenbanken & Backend.

@@ -47,7 +47,13 @@ Ein umfangreiches Datenmodell für die Verwaltung eines Kinos.
 2. Datenbank erstellen und SQL-Skript importieren:
    ```bash
    mysql -u root -p < projekt.sql
-´´´
+
+**Voraussetzungen**
+
+- MySQL ist installiert (z. B. mysql --version prüfen)
+- User und Passwort sind bekannt (Standard: root + eigenes Passwort)
+- Datei projekt.sql enthält alle CREATE DATABASE, USE, CREATE TABLE usw.
+
 ---
 
 ## Autor

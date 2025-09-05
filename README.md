@@ -58,3 +58,4 @@ Ein umfangreiches Datenmodell für die Verwaltung eines Kinos.
 
 ## Autor
 Projekt von **Süleyman Gümüs** im Rahmen von Übungsprojekten zu **SQL & Backend**.
+

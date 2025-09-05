@@ -16,7 +16,7 @@ Ein Datenmodell zur Verwaltung von Immobilien, Kunden, Maklern und Eigentümern.
 - Eigentümerverwaltung mit Referenz auf Immobilien  
 - Beispiel-Queries für Joins zwischen Makler, Kunden und Immobilien  
 
-👉 [Zum Projekt-README](./bg_gmbh/README.md)  
+👉 [Zum Projekt-README](./Immobilie/README.md)  
 
 ---
 
@@ -30,7 +30,7 @@ Ein umfangreiches Datenmodell für die Verwaltung eines Kinos.
 - **Kunden- & Buchungen** mit Ticketverwaltung  
 - **Werbung & Menüs** als Zusatz-Funktion  
 
-👉 [Zum Projekt-README](./kino/README.md)  
+👉 [Zum Projekt-README](./Kino/README.md)  
 
 ---
 

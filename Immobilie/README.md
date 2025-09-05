@@ -99,6 +99,3 @@ SELECT * FROM makler;
 - ER-Diagramm für das Modell erstellen  
 
 ---
-
-## Autor
-Projekt von **Süleyman Gümüs** im Rahmen von Übungsprojekten zu **SQL & Backend**.

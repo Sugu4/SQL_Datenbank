@@ -138,3 +138,31 @@ VALUES
 ("Historie"),
 ("Sport"),
 ("Western");
+
+
+INSERT INTO `film_genre` (`film_genre_id`, `film_id`, `genre_id`) 
+VALUES
+(NULL, '1', '8'),
+(NULL, '1', '9'),
+(NULL, '1', '5'),
+(NULL, '1', '2'),
+(NULL, '1', '11'),
+(NULL, '1', '12'),
+(NULL, '1', '6'),
+(NULL, '2', '1'),
+(NULL, '2', '3'),
+(NULL, '3', '6'),
+(NULL, '3', '5'),
+(NULL, '3', '13'),
+(NULL, '3', '1'),
+(NULL, '3', '3'),
+(NULL, '4', '1'),
+(NULL, '4', '14'),
+(NULL, '4', '13'),
+(NULL, '4', '3'),
+(NULL, '5', '8'),
+(NULL, '5', '5'),
+(NULL, '5', '7'),
+(NULL, '6', '8'),
+(NULL, '6', '5'),
+(NULL, '6', '1');

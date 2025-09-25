@@ -1,7 +1,6 @@
-Sammelkarten-Datenbank 
-Ein Übungsprojekt
+**Sammelkarten-Datenbank - ein Übungsprojekt**
  
-Projektvorstellung 
+**Projektvorstellung** 
 Unsere Idee ist eine Datenbank für einen Sammelkartenbestand für Pokémonkarten. Hier soll der 
 Bestand eines Sammlers oder Shops festgehalten werden. Er kann für seinen Bestand die 
 gesammelten Karten und ihre Anzahl festhalten. Bei den Karten wird zwischen drei Typen 
@@ -10,8 +9,10 @@ kommen aus Sets, Energiekarten sind nicht Teil von neuen Sets.
  
 Auf das Spiel und die Regeln werden wir an dieser Stelle nicht eingehen, wir haben uns das 
 Projekt aus der Sicht eines Sammlers vorgestellt.  
- 
-Die Karten 
+
+---
+
+**Die Karten** 
 Folgende Karten sind im Pokémon-Sammelkarten-Spiel vorhanden: 
  
 Pokémonkarten stellen ein Pokémon dar, welches im 
@@ -56,7 +57,7 @@ eine Illustration.
 
 ---
 
-Unser Entity-Relationship-Modell hat folgende Entitäten: 
+**Unser Entity-Relationship-Modell hat folgende Entitäten:** 
  
 -  Bestand 
 -  Set 
@@ -82,7 +83,7 @@ beschreibt, als auch die der Energiekarten und den Attackenkosten.
 
 ---
 
-Im Vergleich zum ERM erhielt unser RDM folgende neuen Tabellen: 
+**Im Vergleich zum ERM erhielt unser RDM folgende neuen Tabellen:** 
  
 - Bestand_Karte 
 - Bestand_Energie_Karte 
@@ -103,7 +104,7 @@ geführt haben.
 
 ---
 
-Aussicht:  
+**Aussicht:**  
  
 Wenn man unser relationales Datenmodell in eine 
 Datenbank überträgt, wäre ein Sammler in der Lage 
@@ -119,22 +120,3 @@ festhalten und ihnen die Möglichkeit geben nach
 speziellen Sets, Karten, Typen usw. zu suchen. 
 
 ---
- 
-Quellen: 
--  ERM und RDM erstellt mit draw.io 
--  Offizielles Pokémon-Logo (https://de.m.wikipedia.org/wiki/Pok%C3%A9mon) 
--  Kartenbilder: Offizielle Pokémon Website (https://www.pokemon.com/de/pokemon-
-sammelkartenspiel/pokemon-karten) 
--  Energie-Typen-Bild: DeviantArt (https://www.deviantart.com/icycatelf/art/Pokemon-TCG-
-Symbols-Neo-Jumbo-483710689) 
--  Pokémon-Sammler-Sprite 
-(https://bulbapedia.bulbagarden.net/wiki/Collector_%28Trainer_class%29) 
--  Trainer Artwork (https://bulbapedia.bulbagarden.net/wiki/Psychic_(Trainer_class)) 
--  Pokéball-Icon (https://icon-icons.com/de/symbol/pokeball/136305) 
--  Artwork Seite 3 und Pokédex-Artwork 
-(https://www.pokewiki.de/Pok%C3%A9mon_Goldene_Edition_HeartGold_und_Silberne_Edit
-ion_SoulSilver) 
--  Erstellung des Dokuments: Microsoft Word 
- 
- 
- 

@@ -34,6 +34,12 @@ Ein umfangreiches Datenmodell für die Verwaltung eines Kinos.
 
 ---
 
+### 2. Kino-Datenbank (`Projekt Pokemon`)  
+
+👉 [Zum Projekt-README](./Projekt Pokemon/README.md)
+
+---
+
 ## Lernziele
 - **Datenmodellierung**: Normalisierung, PK/FK-Beziehungen, n:m-Relationen  
 - **SQL-Abfragen**: SELECT, JOINs, Constraints, Insertions  

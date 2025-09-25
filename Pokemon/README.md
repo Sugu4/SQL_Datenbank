@@ -1,5 +1,7 @@
 **Sammelkarten-Datenbank - ein Übungsprojekt**
- 
+
+👉 [Zur Doku](./Pokemon/Sammelkartendatenbank_V1.1.pdf)
+
 **Projektvorstellung** 
 Unsere Idee ist eine Datenbank für einen Sammelkartenbestand für Pokémonkarten. Hier soll der 
 Bestand eines Sammlers oder Shops festgehalten werden. Er kann für seinen Bestand die 

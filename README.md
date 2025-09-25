@@ -34,7 +34,7 @@ Ein umfangreiches Datenmodell für die Verwaltung eines Kinos.
 
 ---
 
-### 2. Kino-Datenbank (`Projekt Pokemon`)  
+### 3. Sammelkarten-Datenbank (`Pokemon`)  
 
 👉 [Zum Projekt-README](./Pokemon/README.md)  
 
